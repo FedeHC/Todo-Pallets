@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Todo-Pallets, las mejores ideas para tus muebles de pallets">
+	<meta name="keywords" content="pallets, pallet, palets, palet, mueble, muebles, ideas, fotos">
+	<meta name="author" content="Todo-Pallets.com.ar">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Titulo: -->
+	<title>Todo-Pallets! - @ViewBag.Titulo</title>
+
+	<!-- Favicon: -->
+	<link rel="shortcut icon" href="~/Content/imagenes/favicon.png" />
+
+	<!-- Mas Scripts: -->
+	@Styles.Render("~/Content/css")
+	@Scripts.Render("~/bundles/modernizr")
+</head>
+
+
+<body>
+	<div id="caja-fija">
+		<a id="link-arriba">Arriba!</a>
+	</div>
+
+	<div class="container-fluid">
+
+		<header id="cabecera">
+			<div class="row">
+				<div class="col-sm-5">
+					<div class="logo"></div>
+				</div>
+
+				<div class="col-sm-6">
+					<div id="seccion-links">
+						<ul id="ul-links">
+
+							<li class="li-links">
+								@Html.ActionLink("Contacto", "Contacto", "Home", new { }, new { @class = "a-links", id = (string)@ViewBag.activoContacto })
+							</li>
+
+							<li class="li-links">
+								@Html.ActionLink("Acerca", "Acerca", "Home", new { }, new { @class = "a-links", id = (string)@ViewBag.activoAcerca })
+							</li>
+
+							<li class="li-links">
+								@Html.ActionLink("Proyectos", "Proyectos", "Home", new { }, new { @class = "a-links", id = (string)@ViewBag.activoProyectos })
+							</li>
+
+							<li class="li-links">
+								@Html.ActionLink("Principal", "Index", "Home", new { }, new { @class = "a-links", id = (string)@ViewBag.activoPrincipal })
+	
+							</li>
+						</ul>
+						
+
+					</div>
+				</div>
+			</div>
+		</header>
+
+		@RenderBody()
+
+		<footer id="pie">
+			<div class="row">
+
+				<div class="col-sm-4">
+					<div class="logo"></div>
+				</div>
+
+				<div class="col-sm-3">
+					<div id="leyenda">
+						<h1 id="parrafo-leyenda-1">Todo-Pallets! @DateTime.Now.Year</h1>
+						<h1 id="parrafo-leyenda-2">Ningún derecho reservado.</h1>
+						<h1 id="parrafo-leyenda-2">Creado por Federico C.</h1>
+						<h1 id="parrafo-leyenda-2">usando ASP.NET MVC</h1>
+					</div>
+				</div>
+
+				<div class="col-sm-5">
+					<div id="redes-sociales">
+						<ul class="share-buttons">
+							<li>
+								<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.todo-pallets.com.ar%2F&t=todo-pallets" title="Compartí en Facebook" target="_blank"><img src="~/Content/imagenes/iconos-redes-sociales/Facebook.png" class="links-redes-sociales"></a>
+							</li>
+
+							<li>
+								<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.todo-pallets.com.ar%2F&text=todo-pallets:%20http%3A%2F%2Fwww.todo-pallets.com.ar%2F" target="_blank" title="Tweet"><img src="~/Content/imagenes/iconos-redes-sociales/Twitter.png" class="links-redes-sociales"></a>
+							</li>
+
+							<li>
+								<a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.todo-pallets.com.ar%2F" target="_blank" title="Compartí en Google+"><img src="~/Content/imagenes/iconos-redes-sociales/GooglePlus.png" class="links-redes-sociales"></a>
+							</li>
+
+							<li>
+								<a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fwww.todo-pallets.com.ar%2F&t=todo-pallets&s=" target="_blank" title="Posteá en Tumblr"><img src="~/Content/imagenes/iconos-redes-sociales/Tumblr.png" class="links-redes-sociales"></a>
+							</li>
+
+							<li>
+								<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.todo-pallets.com.ar%2F&description=Todo-Pallets!%0ALas%20mejores%20ideas%20para%20tus%20muebles%20de%20pallets." target="_blank" title="Compartí en Pinterest"><img src="~/Content/imagenes/iconos-redes-sociales/Pinterest.png" class="links-redes-sociales"></a>
+							</li>
+
+							<li>
+								<a href="http://www.reddit.com/submit?url=http%3A%2F%2Fwww.todo-pallets.com.ar%2F&title=todo-pallets" target="_blank" title="Envía a Reddit"><img src="~/Content/imagenes/iconos-redes-sociales/Reddit.png" class="links-redes-sociales"></a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Mas Scripts: -->
+	@Scripts.Render("~/bundles/jquery")
+	@Scripts.Render("~/bundles/bootstrap")
+	@Scripts.Render("~/Scripts/jssor/jssor.slider.mini.js")
+	@Scripts.Render("~/Scripts/main.js")
+	@RenderSection("scripts", required: false)
+</body>
+</html>

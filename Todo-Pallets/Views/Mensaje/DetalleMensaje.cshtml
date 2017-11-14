@@ -1,0 +1,33 @@
+﻿@using Todo_Pallets.Models;
+
+@{
+	ViewBag.Titulo = "Detalles del mensaje";
+}
+
+
+<section>
+	<div class="row">
+		<div id="columna-descripcion-acerca">
+			<div class="col-sm-6 columna">
+
+				@if (ViewBag.mensaje != null)
+				{
+					<h1 id="descripcion">Detalles del mensaje:</h1>
+					<p class="parrafo-descripcion">	<b>Nombre:</b> @ViewBag.mensaje.getNombre() <br />
+																					<b>Apellido:</b> @ViewBag.mensaje.getApellido() <br />
+																					<b>Email:</b> @ViewBag.mensaje.getEmail() </p>
+
+					<p class="parrafo-descripcion"><b>Consulta:</b> @ViewBag.mensaje.getConsulta() </p>
+				}
+				else
+				{
+					<h1 id="descripcion">Error:</h1>
+					<p class="parrafo-descripcion">No se pudo obtener los detalles de este mensaje.</p>
+				}
+
+				<p class="parrafo-descripcion">@Html.ActionLink("Volver", "ListaMensaje", "Mensaje")</p>
+
+			</div>
+		</div>
+	</div>
+</section>

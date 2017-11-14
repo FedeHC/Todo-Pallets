@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Titulo = "MensajeEnviar";
+}
+
+<section>
+	<div class="row">
+		<div id="columna-descripcion-acerca">
+			<div class="col-sm-6 columna">
+				<h1 id="descripcion">Resultados del envio de la consulta:</h1>
+				<p class="parrafo-descripcion">@ViewBag.resultadoMensaje</p>
+				<p class="parrafo-descripcion"></p>
+				<p class="parrafo-descripcion">@Html.ActionLink("Volver", "Contacto", "Home")</p>
+
+			</div>
+		</div>
+	</div>
+</section>

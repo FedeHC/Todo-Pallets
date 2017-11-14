@@ -1,0 +1,648 @@
+﻿@using Todo_Pallets.Models;
+
+@{
+	ViewBag.Titulo = "Principal";
+	ViewBag.activoPrincipal = "actual";
+}
+
+
+<section>
+	<div id="logo-productos-izq"></div>
+	<div id="logo-productos-der"></div>
+
+	<!-- Slider principal -->
+	<div id="slider1_container">
+
+		<!-- Contenedor de Slides: -->
+		<div id="slides-div-fotos" u="slides">
+
+			<div>
+				<!-- IMAGEN 1 -->
+				<img u="image" src="~/Content/imagenes/fotos-muebles/pallets01.jpg" />
+
+				<div id="caption-div-1a" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-1">
+						<b>[Puesto N° 1]</b>
+					</h1>
+				</div>
+
+				<div id="caption-div-2" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-2">@ViewBag.lstProductos[0].getNombreProducto()	</h1>
+				</div>
+
+				<div id="caption-div-4" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-4">Puntaje:</h1>
+				</div>
+
+				<img id="estrella-entera-img-1" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-2" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-3" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-4" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-5" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<div id="caption-div-5" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-5a"><b>Precio:</b></h1>
+					<h1 id="caption-h1-5b">$ @ViewBag.lstProductos[0].getPrecio()</h1>
+				</div>
+
+				<div u="thumb">
+					<img class="thumb-imagen" src="~/Content/imagenes/fotos-muebles/miniaturas/pallets01.jpg" />
+					<div class="title_back"></div>
+					<div class="title">[1°]</div>
+				</div>
+			</div>
+
+			<div>
+				<!-- IMAGEN 2 -->
+				<img u="image" src="~/Content/imagenes/fotos-muebles/pallets02.jpg" />
+
+				<div id="caption-div-1b" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-1">
+						<b>[Puesto N° 2]</b>
+					</h1>
+				</div>
+
+				<div id="caption-div-2" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-2">@ViewBag.lstProductos[1].getNombreProducto()</h1>
+				</div>
+
+				<div id="caption-div-4" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-4">Puntaje:</h1>
+				</div>
+
+				<img id="estrella-entera-img-1" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-2" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-3" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-4" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-5" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-3-4.png">
+
+				<div id="caption-div-5" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-5a"><b>Precio:</b></h1>
+					<h1 id="caption-h1-5b">$ @ViewBag.lstProductos[1].getPrecio()</h1>
+				</div>
+
+				<div u="thumb">
+					<img class="thumb-imagen" src="~/Content/imagenes/fotos-muebles/miniaturas/pallets02.jpg" />
+					<div class="title_back"></div>
+					<div class="title">[2°]</div>
+				</div>
+			</div>
+
+			<div>
+				<!-- IMAGEN 3 -->
+				<img u="image" src="~/Content/imagenes/fotos-muebles/pallets03.jpg" />
+
+				<div id="caption-div-1c" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-1">
+						<b>[Puesto N° 3]</b>
+					</h1>
+				</div>
+
+				<div id="caption-div-2" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-2">@ViewBag.lstProductos[2].getNombreProducto()</h1>
+				</div>
+
+				<div id="caption-div-4" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-4">Puntaje:</h1>
+				</div>
+
+				<img id="estrella-entera-img-1" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-2" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-3" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-4" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-5" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-3-4.png">
+
+				<div id="caption-div-5" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-5a"><b>Precio:</b></h1>
+					<h1 id="caption-h1-5b">$ @ViewBag.lstProductos[2].getPrecio()</h1>
+				</div>
+
+				<div u="thumb">
+					<img class="thumb-imagen" src="~/Content/imagenes/fotos-muebles/miniaturas/pallets03.jpg" />
+					<div class="title_back"></div>
+					<div class="title">[3°]</div>
+				</div>
+			</div>
+
+			<div>
+				<!-- IMAGEN 4 -->
+				<img u="image" src="~/Content/imagenes/fotos-muebles/pallets04.jpg" />
+
+				<div id="caption-div-1d" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-1">
+						<b>[Puesto N° 4]</b>
+					</h1>
+				</div>
+
+				<div id="caption-div-2" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-2">@ViewBag.lstProductos[3].getNombreProducto()</h1>
+				</div>
+
+				<div id="caption-div-4" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-4">Puntaje:</h1>
+				</div>
+
+				<img id="estrella-entera-img-1" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-2" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-3" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-4" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-5" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-3-4.png">
+
+				<div id="caption-div-5" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-5a"><b>Precio:</b></h1>
+					<h1 id="caption-h1-5b">$ @ViewBag.lstProductos[3].getPrecio()</h1>
+				</div>
+
+				<div u="thumb">
+					<img class="thumb-imagen" src="~/Content/imagenes/fotos-muebles/miniaturas/pallets04.jpg" />
+					<div class="title_back"></div>
+					<div class="title">[4°]</div>
+				</div>
+			</div>
+
+			<div>
+				<!-- IMAGEN 5 -->
+				<img u="image" src="~/Content/imagenes/fotos-muebles/pallets05.jpg" />
+
+				<div id="caption-div-1d" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-1">
+						<b>[Puesto N° 5]</b>
+					</h1>
+				</div>
+
+				<div id="caption-div-2" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-2">@ViewBag.lstProductos[4].getNombreProducto()</h1>
+				</div>
+
+				<div id="caption-div-4" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-4">Puntaje:</h1>
+				</div>
+
+				<img id="estrella-entera-img-1" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-2" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-3" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-4" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-5" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-3-4.png">
+
+				<div id="caption-div-5" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-5a"><b>Precio:</b></h1>
+					<h1 id="caption-h1-5b">$ @ViewBag.lstProductos[4].getPrecio()</h1>
+				</div>
+
+				<div u="thumb">
+					<img class="thumb-imagen" src="~/Content/imagenes/fotos-muebles/miniaturas/pallets05.jpg" />
+					<div class="title_back"></div>
+					<div class="title">[5°]</div>
+				</div>
+			</div>
+
+			<div>
+				<!-- IMAGEN 6 -->
+				<img u="image" src="~/Content/imagenes/fotos-muebles/pallets06.jpg" />
+
+				<div id="caption-div-1d" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-1">
+						<b>[Puesto N° 6]</b>
+					</h1>
+				</div>
+
+				<div id="caption-div-2" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-2">@ViewBag.lstProductos[5].getNombreProducto()</h1>
+				</div>
+
+				<div id="caption-div-4" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-4">Puntaje:</h1>
+				</div>
+
+				<img id="estrella-entera-img-1" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-2" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-3" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-4" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-5" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Mitad.png">
+
+				<div id="caption-div-5" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-5a"><b>Precio:</b></h1>
+					<h1 id="caption-h1-5b">$ @ViewBag.lstProductos[5].getPrecio()</h1>
+				</div>
+
+				<div u="thumb">
+					<img class="thumb-imagen" src="~/Content/imagenes/fotos-muebles/miniaturas/pallets06.jpg" />
+					<div class="title_back"></div>
+					<div class="title">[6°]</div>
+				</div>
+			</div>
+
+			<div>
+				<!-- IMAGEN 7 -->
+				<img u="image" src="~/Content/imagenes/fotos-muebles/pallets07.jpg" />
+
+				<div id="caption-div-1d" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-1">
+						<b>[Puesto N° 7]</b>
+					</h1>
+				</div>
+
+				<div id="caption-div-2" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-2">@ViewBag.lstProductos[6].getNombreProducto()</h1>
+				</div>
+
+				<div id="caption-div-4" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-4">Puntaje:</h1>
+				</div>
+
+				<img id="estrella-entera-img-1" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-2" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-3" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-4" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-5" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Mitad.png">
+
+				<div id="caption-div-5" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-5a"><b>Precio:</b></h1>
+					<h1 id="caption-h1-5b">$ @ViewBag.lstProductos[6].getPrecio()</h1>
+				</div>
+
+				<div u="thumb">
+					<img class="thumb-imagen" src="~/Content/imagenes/fotos-muebles/miniaturas/pallets07.jpg" />
+					<div class="title_back"></div>
+					<div class="title">[7°]</div>
+				</div>
+			</div>
+
+			<div>
+				<!-- IMAGEN 8 -->
+				<img u="image" src="~/Content/imagenes/fotos-muebles/pallets08.jpg" />
+
+				<div id="caption-div-1d" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-1">
+						<b>[Puesto N° 8]</b>
+					</h1>
+				</div>
+
+				<div id="caption-div-2" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-2">@ViewBag.lstProductos[7].getNombreProducto()</h1>
+				</div>
+
+				<div id="caption-div-4" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-4">Puntaje:</h1>
+				</div>
+
+				<img id="estrella-entera-img-1" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-2" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-3" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-4" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-5" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Mitad.png">
+
+				<div id="caption-div-5" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-5a"><b>Precio:</b></h1>
+					<h1 id="caption-h1-5b">$ @ViewBag.lstProductos[7].getPrecio()</h1>
+				</div>
+
+				<div u="thumb">
+					<img class="thumb-imagen" src="~/Content/imagenes/fotos-muebles/miniaturas/pallets08.jpg" />
+					<div class="title_back"></div>
+					<div class="title">[8°]</div>
+				</div>
+			</div>
+
+			<div>
+				<!-- IMAGEN 9 -->
+				<img u="image" src="~/Content/imagenes/fotos-muebles/pallets09.jpg" />
+
+				<div id="caption-div-1d" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-1">
+						<b>[Puesto N° 9]</b>
+					</h1>
+				</div>
+
+				<div id="caption-div-2" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-2">@ViewBag.lstProductos[8].getNombreProducto()</h1>
+				</div>
+
+				<div id="caption-div-4" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-4">Puntaje:</h1>
+				</div>
+
+				<img id="estrella-entera-img-1" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-2" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-3" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-4" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-5" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-1-4.png">
+
+				<div id="caption-div-5" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-5a"><b>Precio:</b></h1>
+					<h1 id="caption-h1-5b">$ @ViewBag.lstProductos[8].getPrecio()</h1>
+				</div>
+
+				<div u="thumb">
+					<img class="thumb-imagen" src="~/Content/imagenes/fotos-muebles/miniaturas/pallets09.jpg" />
+					<div class="title_back"></div>
+					<div class="title">[9°]</div>
+				</div>
+			</div>
+
+			<div>
+				<!-- IMAGEN 10 -->
+				<img u="image" src="~/Content/imagenes/fotos-muebles/pallets10.jpg" />
+
+				<div id="caption-div-1d" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-1">
+						<b>[Puesto N° 10]</b>
+					</h1>
+				</div>
+
+				<div id="caption-div-2" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-2">@ViewBag.lstProductos[9].getNombreProducto()</h1>
+				</div>
+
+				<div id="caption-div-4" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-4">Puntaje:</h1>
+				</div>
+
+				<img id="estrella-entera-img-1" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-2" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-3" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-4" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+
+				<img id="estrella-entera-img-5" u="caption" t="*" du="700" src="~/Content/imagenes/iconos-estrellas-puntaje/Estrella-1-4.png">
+
+				<div id="caption-div-5" u=caption t="*" du="1000" class="captionOrange">
+					<h1 id="caption-h1-5a"><b>Precio:</b></h1>
+					<h1 id="caption-h1-5b">$ @ViewBag.lstProductos[9].getPrecio()</h1>
+				</div>
+
+				<div u="thumb">
+					<img class="thumb-imagen" src="~/Content/imagenes/fotos-muebles/miniaturas/pallets10.jpg" />
+					<div class="title_back"></div>
+					<div class="title">[10°]</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Arrow Navigator Skin: -->
+		<span class="jssora12l" u="arrowleft"></span>
+		<span class="jssora12r" u="arrowright"></span>
+
+		<!-- Thumbnail Navigator: -->
+		<div u="thumbnavigator" class="jssort16">
+			<!-- Thumbnail Item Skin Begin -->
+			<div id="slides-cursor" u="slides">
+				<div u="prototype" class=p>
+					<div u="thumbnailtemplate" class="t"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Barra de título de descripción del producto -->
+	<div id="descripcion-titulo">
+		<div id="fila-titulo" class="row">
+
+			<div class="col-sm-5 col-sm-offset-1">
+				<h1 id="numero-slide-invisible"></h1>
+				<h1 id="titulo-1">@ViewBag.lstProductos[0].getNombreProducto()</h1>
+				<h1 id="titulo-2">@ViewBag.lstProductos[1].getNombreProducto()</h1>
+				<h1 id="titulo-3">@ViewBag.lstProductos[2].getNombreProducto()</h1>
+				<h1 id="titulo-4">@ViewBag.lstProductos[3].getNombreProducto()</h1>
+				<h1 id="titulo-5">@ViewBag.lstProductos[4].getNombreProducto()</h1>
+				<h1 id="titulo-6">@ViewBag.lstProductos[5].getNombreProducto()</h1>
+				<h1 id="titulo-7">@ViewBag.lstProductos[6].getNombreProducto()</h1>
+				<h1 id="titulo-8">@ViewBag.lstProductos[7].getNombreProducto()</h1>
+				<h1 id="titulo-9">@ViewBag.lstProductos[8].getNombreProducto()</h1>
+				<h1 id="titulo-10">@ViewBag.lstProductos[9].getNombreProducto()</h1>
+			</div>
+
+			<div class="col-sm-5">
+				<h1 id="precio-1"><span class="precio-lista">Precio de lista:</span> $ @ViewBag.lstProductos[0].getPrecio()</h1>
+				<h1 id="precio-2"><span class="precio-lista">Precio de lista:</span> $ @ViewBag.lstProductos[1].getPrecio()</h1>
+				<h1 id="precio-3"><span class="precio-lista">Precio de lista:</span> $ @ViewBag.lstProductos[2].getPrecio()</h1>
+				<h1 id="precio-4"><span class="precio-lista">Precio de lista:</span> $ @ViewBag.lstProductos[3].getPrecio()</h1>
+				<h1 id="precio-5"><span class="precio-lista">Precio de lista:</span> $ @ViewBag.lstProductos[4].getPrecio()</h1>
+				<h1 id="precio-6"><span class="precio-lista">Precio de lista:</span> $ @ViewBag.lstProductos[5].getPrecio()</h1>
+				<h1 id="precio-7"><span class="precio-lista">Precio de lista:</span> $ @ViewBag.lstProductos[6].getPrecio()</h1>
+				<h1 id="precio-8"><span class="precio-lista">Precio de lista:</span> $ @ViewBag.lstProductos[7].getPrecio()</h1>
+				<h1 id="precio-9"><span class="precio-lista">Precio de lista:</span> $ @ViewBag.lstProductos[8].getPrecio()</h1>
+				<h1 id="precio-10"><span class="precio-lista">Precio de lista:</span> $ @ViewBag.lstProductos[9].getPrecio()</h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- Cuerpo de descripción del producto -->
+	<div id="descripcion-cuerpo">
+		<div class="row">
+			<div class="col-sm-5 col-sm-offset-1">
+
+				<div id="boton-comprar">
+					<h1 id="titulo-comprar">@Html.ActionLink("Comprar!", "Comprar", "Esp", new { }, new { id = "link-comprar" })</h1>
+				</div>
+
+				<div id="columna-descripcion-1-izq">
+					<h1 id="descripcion">Descripcion del producto:</h1>
+					<p class="parrafo-descripcion">@ViewBag.lstProductos[0].getDescripcionProducto()</p>
+				</div>
+
+				<div id="columna-descripcion-2-izq">
+					<h1 id="descripcion">Descripcion del producto:</h1>
+					<p class="parrafo-descripcion">@ViewBag.lstProductos[1].getDescripcionProducto()</p>
+				</div>
+
+				<div id="columna-descripcion-3-izq">
+					<h1 id="descripcion">Descripcion del producto:</h1>
+					<p class="parrafo-descripcion">@ViewBag.lstProductos[2].getDescripcionProducto()</p>
+				</div>
+
+				<div id="columna-descripcion-4-izq">
+					<h1 id="descripcion">Descripcion del producto:</h1>
+					<p class="parrafo-descripcion">@ViewBag.lstProductos[3].getDescripcionProducto()</p>
+				</div>
+
+				<div id="columna-descripcion-5-izq">
+					<h1 id="descripcion">Descripcion del producto:</h1>
+					<p class="parrafo-descripcion">@ViewBag.lstProductos[4].getDescripcionProducto()</p>
+				</div>
+
+				<div id="columna-descripcion-6-izq">
+					<h1 id="descripcion">Descripcion del producto:</h1>
+					<p class="parrafo-descripcion">@ViewBag.lstProductos[5].getDescripcionProducto()</p>
+				</div>
+
+				<div id="columna-descripcion-7-izq">
+					<h1 id="descripcion">Descripcion del producto:</h1>
+					<p class="parrafo-descripcion">@ViewBag.lstProductos[6].getDescripcionProducto()</p>
+				</div>
+
+				<div id="columna-descripcion-8-izq">
+					<h1 id="descripcion">Descripcion del producto:</h1>
+					<p class="parrafo-descripcion">@ViewBag.lstProductos[7].getDescripcionProducto()</p>
+				</div>
+
+				<div id="columna-descripcion-9-izq">
+					<h1 id="descripcion">Descripcion del producto:</h1>
+					<p class="parrafo-descripcion">@ViewBag.lstProductos[8].getDescripcionProducto()</p>
+				</div>
+
+				<div id="columna-descripcion-10-izq">
+					<h1 id="descripcion">Descripcion del producto:</h1>
+					<p class="parrafo-descripcion">@ViewBag.lstProductos[9].getDescripcionProducto()</p>
+				</div>
+
+			</div>
+
+			<div class="col-sm-5">
+				<!-- Jssor Slider (slider secundario): -->
+				<div id="slider2_container">
+
+					<!-- Contenedor de Slides: -->
+					<div id="slides-div-fotos-2" u="slides">
+
+						<div>
+							<!-- IMAGEN 1 del que aparece actualmente en el slider principal -->
+							<img u="image" src="~/Content/imagenes/fotos-muebles/pallets01.jpg" />
+						</div>
+
+						<div>
+							<!-- IMAGEN 2 del que aparece actualmente en el slider principal -->
+							<img u="image" src="~/Content/imagenes/fotos-muebles/pallets02.jpg" />
+						</div>
+
+						<div>
+							<!-- IMAGEN 3 del que aparece actualmente en el slider principal -->
+							<img u="image" src="~/Content/imagenes/fotos-muebles/pallets03.jpg" />
+						</div>
+
+						<div>
+							<!-- IMAGEN 4 del que aparece actualmente en el slider principal -->
+							<img u="image" src="~/Content/imagenes/fotos-muebles/pallets04.jpg" />
+						</div>
+
+						<div>
+							<!-- IMAGEN 5 del que aparece actualmente en el slider principal -->
+							<img u="image" src="~/Content/imagenes/fotos-muebles/pallets05.jpg" />
+						</div>
+
+						<div>
+							<!-- IMAGEN 6 del que aparece actualmente en el slider principal -->
+							<img u="image" src="~/Content/imagenes/fotos-muebles/pallets06.jpg" />
+						</div>
+
+						<div>
+							<!-- IMAGEN 7 del que aparece actualmente en el slider principal -->
+							<img u="image" src="~/Content/imagenes/fotos-muebles/pallets07.jpg" />
+						</div>
+
+						<div>
+							<!-- IMAGEN 8 del que aparece actualmente en el slider principal -->
+							<img u="image" src="~/Content/imagenes/fotos-muebles/pallets08.jpg" />
+						</div>
+
+						<div>
+							<!-- IMAGEN 9 del que aparece actualmente en el slider principal -->
+							<img u="image" src="~/Content/imagenes/fotos-muebles/pallets09.jpg" />
+						</div>
+
+						<div>
+							<!-- IMAGEN 10 del que aparece actualmente en el slider principal -->
+							<img u="image" src="~/Content/imagenes/fotos-muebles/pallets10.jpg" />
+						</div>
+
+						<!-- Arrow Navigator Skin (slider secundario): -->
+						<span class="jssora12l flecha-izq-slide2" u="arrowleft"></span>
+						<span class="jssora12r flecha-der-slide2" u="arrowright"></span>
+					</div>
+				</div>
+
+				<div id="columna-descripcion-1-der">
+					<h1 id="visitas">VISITAS: @ViewBag.lstProductos[0].getVisitas()</h1>
+					<h1 id="puntaje">PUNTAJE: @ViewBag.lstProductos[0].getPuntaje()</h1>
+				</div>
+
+				<div id="columna-descripcion-2-der">
+					<h1 id="visitas">VISITAS: @ViewBag.lstProductos[1].getVisitas()</h1>
+					<h1 id="puntaje">PUNTAJE: @ViewBag.lstProductos[1].getPuntaje()</h1>
+				</div>
+
+				<div id="columna-descripcion-3-der">
+					<h1 id="visitas">VISITAS: @ViewBag.lstProductos[2].getVisitas()</h1>
+					<h1 id="puntaje">PUNTAJE: @ViewBag.lstProductos[2].getPuntaje()</h1>
+				</div>
+
+				<div id="columna-descripcion-4-der">
+					<h1 id="visitas">VISITAS: @ViewBag.lstProductos[3].getVisitas()</h1>
+					<h1 id="puntaje">PUNTAJE: @ViewBag.lstProductos[3].getPuntaje()</h1>
+				</div>
+
+				<div id="columna-descripcion-5-der">
+					<h1 id="visitas">VISITAS: @ViewBag.lstProductos[4].getVisitas()</h1>
+					<h1 id="puntaje">PUNTAJE: @ViewBag.lstProductos[4].getPuntaje()</h1>
+				</div>
+
+				<div id="columna-descripcion-6-der">
+					<h1 id="visitas">VISITAS: @ViewBag.lstProductos[5].getVisitas()</h1>
+					<h1 id="puntaje">PUNTAJE: @ViewBag.lstProductos[5].getPuntaje()</h1>
+				</div>
+
+				<div id="columna-descripcion-7-der">
+					<h1 id="visitas">VISITAS: @ViewBag.lstProductos[6].getVisitas()</h1>
+					<h1 id="puntaje">PUNTAJE: @ViewBag.lstProductos[6].getPuntaje()</h1>
+				</div>
+
+				<div id="columna-descripcion-8-der">
+					<h1 id="visitas">VISITAS: @ViewBag.lstProductos[7].getVisitas()</h1>
+					<h1 id="puntaje">PUNTAJE: @ViewBag.lstProductos[7].getPuntaje()</h1>
+				</div>
+
+				<div id="columna-descripcion-9-der">
+					<h1 id="visitas">VISITAS: @ViewBag.lstProductos[8].getVisitas()</h1>
+					<h1 id="puntaje">PUNTAJE: @ViewBag.lstProductos[8].getPuntaje()</h1>
+				</div>
+
+				<div id="columna-descripcion-10-der">
+					<h1 id="visitas">VISITAS: @ViewBag.lstProductos[9].getVisitas()</h1>
+					<h1 id="puntaje">PUNTAJE: @ViewBag.lstProductos[9].getPuntaje()</h1>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</section>

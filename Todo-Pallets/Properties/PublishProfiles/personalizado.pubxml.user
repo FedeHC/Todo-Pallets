@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>G:\Mis Archivos\Todo-Pallets</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGr6wfeYMU0qfH4vNffMH0AAAAAACAAAAAAAQZgAAAAEAACAAAACh8xP87JzkgTkrJcJ7iRhm2bZtygsy+m0g++BuoJmQoAAAAAAOgAAAAAIAACAAAAAPLAlkm3W4i81ZsxB/wCJ7P0DgtIP1GCtk0uRZdYnn/SAAAAC+FXQZeHVybaSS6+EH1h+tad/UPXfCkuHyEU61yBbGdUAAAAACyZdJwK2wK4VbVNxnEd4r3S+e2Ot+gOLW49nqmklYOoe6SDH9dtM1HXbQcWwFIrRzBRqoYey71TcnqwZ+wOOg</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/14/2015 15:10:10</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/14/2015 15:10:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/14/2015 15:10:06</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/14/2015 15:10:09</publishTime>
+    </File>
+    <File Include="bin/System.Web.Abstractions.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/14/2015 15:10:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/14/2015 15:10:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/14/2015 15:10:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/14/2015 15:10:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Routing.dll">
+      <publishTime>09/26/2012 03:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/14/2015 15:10:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/14/2015 15:10:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/14/2015 15:10:06</publishTime>
+    </File>
+    <File Include="bin/Todo-Pallets.dll">
+      <publishTime>09/23/2015 01:33:39</publishTime>
+    </File>
+    <File Include="bin/Todo-Pallets.pdb">
+      <publishTime>09/23/2015 01:33:39</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/14/2015 15:10:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap/bootstrap-theme.css">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/bootstrap/bootstrap-theme.css.map">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/bootstrap/bootstrap-theme.min.css">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/bootstrap/bootstrap.css">
+      <publishTime>09/15/2015 00:30:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap/bootstrap.css.map">
+      <publishTime>09/15/2015 00:33:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap/bootstrap.min.css">
+      <publishTime>09/15/2015 00:34:36</publishTime>
+    </File>
+    <File Include="Content/bootstrap/glyphicons/glyphicons-halflings-regular.eot">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/bootstrap/glyphicons/glyphicons-halflings-regular.svg">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/bootstrap/glyphicons/glyphicons-halflings-regular.ttf">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/bootstrap/glyphicons/glyphicons-halflings-regular.woff">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/bootstrap/glyphicons/glyphicons-halflings-regular.woff2">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/css/reset.css">
+      <publishTime>09/14/2015 15:11:25</publishTime>
+    </File>
+    <File Include="Content/css/site.css">
+      <publishTime>09/23/2015 01:27:51</publishTime>
+    </File>
+    <File Include="Content/fonts/White wood.otf">
+      <publishTime>09/14/2015 15:13:10</publishTime>
+    </File>
+    <File Include="Content/imagenes/favicon.png">
+      <publishTime>09/14/2015 15:14:12</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/miniaturas/pallets01.jpg">
+      <publishTime>09/14/2015 15:14:12</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/miniaturas/pallets02.jpg">
+      <publishTime>09/14/2015 15:14:12</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/miniaturas/pallets03.jpg">
+      <publishTime>09/14/2015 15:14:12</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/miniaturas/pallets04.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/miniaturas/pallets05.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/miniaturas/pallets06.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/miniaturas/pallets07.jpg">
+      <publishTime>09/19/2015 01:26:52</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/miniaturas/pallets08.jpg">
+      <publishTime>09/19/2015 01:30:17</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/miniaturas/pallets09.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/miniaturas/pallets10.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/pallets01.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/pallets01.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/pallets02.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/pallets03.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/pallets04.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/pallets05.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/pallets06.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/pallets07.jpg">
+      <publishTime>09/19/2015 01:26:17</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/pallets08.jpg">
+      <publishTime>09/19/2015 01:29:59</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/pallets09.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-muebles/pallets10.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/miniaturas/pallets01.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/miniaturas/pallets02.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/miniaturas/pallets03.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/miniaturas/pallets04.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/miniaturas/pallets05.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/miniaturas/pallets06.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/miniaturas/pallets07.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/miniaturas/pallets08.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/miniaturas/pallets09.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/miniaturas/pallets10.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/pallets01.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/pallets02.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/pallets03.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/pallets04.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/pallets05.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/pallets06.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/pallets07.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/pallets08.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/pallets09.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/fotos-proyectos/pallets10.jpg">
+      <publishTime>09/21/2015 02:55:53</publishTime>
+    </File>
+    <File Include="Content/imagenes/iconos-estrellas-puntaje/Estrella-1-4.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/iconos-estrellas-puntaje/Estrella-3-4.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/iconos-estrellas-puntaje/Estrella-Entera.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/iconos-estrellas-puntaje/Estrella-Mitad.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/iconos-redes-sociales/Facebook.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/iconos-redes-sociales/GooglePlus.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/iconos-redes-sociales/Pinterest.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/iconos-redes-sociales/Reddit.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/iconos-redes-sociales/Tumblr.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/iconos-redes-sociales/Twitter.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/Imagen-Principal.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/logos-productos-proyectos/Top10-Productos-Derecha.png">
+      <publishTime>09/18/2015 23:08:00</publishTime>
+    </File>
+    <File Include="Content/imagenes/logos-productos-proyectos/Top10-Productos-Izquierda.png">
+      <publishTime>09/18/2015 23:07:52</publishTime>
+    </File>
+    <File Include="Content/imagenes/logos-productos-proyectos/Top10-Proyectos-Derecha.png">
+      <publishTime>09/18/2015 22:53:38</publishTime>
+    </File>
+    <File Include="Content/imagenes/logos-productos-proyectos/Top10-Proyectos-Izquierda.png">
+      <publishTime>09/18/2015 22:53:38</publishTime>
+    </File>
+    <File Include="Content/imagenes/Textura-Fondo.jpg">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/imagenes/Titulo-Empresa.png">
+      <publishTime>09/14/2015 15:14:13</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a01.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a02.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a03.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a04.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a06.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a07.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a08.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a09.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a10.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a11.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a12.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a13.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a14.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a15.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a16.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a17.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a18.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a19.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a20.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a21.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/a22.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b02.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b03.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b05.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b06.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b07.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b10.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b11.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b12.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b13.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b14.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b16.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b17.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b18.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b20.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/b21.png">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/back.jpg">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Content/jssor/img/browser-icons.png">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/img/close.png">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/img/Icon-Slider-12-jQuery.png">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/img/Icon-Slider-12-No-jQuery.png">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/img/loading.gif">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/img/loading2.gif">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/img/play.png">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/img/t01.png">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-01.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-02.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-03.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-04.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-05.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-06.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-07.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-08.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-09.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-10.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-11.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-12.source.html">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-13.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-14.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-15.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-16.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-18.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-19.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-20.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-21.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/arrow-22.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-01.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-02.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-03.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-05.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-06.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-07.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-09.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-10.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-11.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-12.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-13.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-14.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-16.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-17.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-18.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-20.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/bullet-21.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-01.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-02.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-03.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-04.source.html">
+      <publishTime>09/14/2015 15:14:35</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-05.source.html">
+      <publishTime>09/14/2015 15:14:36</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-06.source.html">
+      <publishTime>09/14/2015 15:14:36</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-07.source.html">
+      <publishTime>09/14/2015 15:14:36</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-08.source.html">
+      <publishTime>09/14/2015 15:14:36</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-09.source.html">
+      <publishTime>09/14/2015 15:14:36</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-10.source.html">
+      <publishTime>09/14/2015 15:14:36</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-15.source.html">
+      <publishTime>09/14/2015 15:14:36</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/thumbnail-16.source.html">
+      <publishTime>09/14/2015 15:14:36</publishTime>
+    </File>
+    <File Include="Content/jssor/skin/_references.js">
+      <publishTime>09/14/2015 15:10:08</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/14/2015 15:09:47</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/14/2015 15:10:11</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/bootstrap.js">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/bootstrap.min.js">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/npm.js">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery/jquery-1.11.3.min.js">
+      <publishTime>09/14/2015 15:14:33</publishTime>
+    </File>
+    <File Include="Scripts/jssor/jssor.js">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Scripts/jssor/jssor.player.ytiframe.compress.bat">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Scripts/jssor/jssor.player.ytiframe.js">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Scripts/jssor/jssor.player.ytiframe.min.js">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Scripts/jssor/jssor.slider.debug.min.compress.bat">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Scripts/jssor/jssor.slider.js">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Scripts/jssor/jssor.slider.min.compress.bat">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Scripts/jssor/jssor.slider.min.js">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Scripts/jssor/jssor.slider.mini.compress.bat">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Scripts/jssor/jssor.slider.mini.js">
+      <publishTime>09/14/2015 15:14:34</publishTime>
+    </File>
+    <File Include="Scripts/main.js">
+      <publishTime>09/22/2015 15:18:01</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>09/14/2015 15:10:07</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>09/14/2015 15:10:11</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>09/14/2015 15:10:11</publishTime>
+    </File>
+    <File Include="Views/Esp/Comprar.cshtml">
+      <publishTime>09/23/2015 01:28:09</publishTime>
+    </File>
+    <File Include="Views/Esp/SubirProyecto.cshtml">
+      <publishTime>09/23/2015 00:38:58</publishTime>
+    </File>
+    <File Include="Views/Home/Acerca.cshtml">
+      <publishTime>09/22/2015 21:26:44</publishTime>
+    </File>
+    <File Include="Views/Home/Contacto.cshtml">
+      <publishTime>09/22/2015 23:36:00</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/22/2015 17:43:35</publishTime>
+    </File>
+    <File Include="Views/Home/Proyectos.cshtml">
+      <publishTime>09/22/2015 19:39:41</publishTime>
+    </File>
+    <File Include="Views/Home/SubirProyecto.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Mensaje/BorrarMensaje.cshtml">
+      <publishTime>09/18/2015 01:01:53</publishTime>
+    </File>
+    <File Include="Views/Mensaje/DetalleMensaje.cshtml">
+      <publishTime>09/18/2015 20:19:59</publishTime>
+    </File>
+    <File Include="Views/Mensaje/ListaMensaje.cshtml">
+      <publishTime>09/20/2015 23:14:17</publishTime>
+    </File>
+    <File Include="Views/Mensaje/ListaYDetalleMensaje.cshtml">
+      <publishTime>09/19/2015 12:23:48</publishTime>
+    </File>
+    <File Include="Views/Mensaje/MandarMensaje.cshtml">
+      <publishTime>09/16/2015 20:40:16</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/14/2015 15:09:47</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/18/2015 02:37:10</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/14/2015 15:09:47</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/14/2015 15:09:47</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/23/2015 01:46:35</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

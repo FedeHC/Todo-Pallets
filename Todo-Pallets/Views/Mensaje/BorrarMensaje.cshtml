@@ -1,0 +1,33 @@
+﻿@using Todo_Pallets.Models;
+
+@{
+	ViewBag.Titulo = "Borrar Mensaje";
+}
+
+
+<section>
+	<div class="row">
+		<div id="columna-descripcion-acerca">
+			<div class="col-sm-6 columna">
+
+				<h1 id="descripcion">Borrando mensaje:</h1>
+				<p class="parrafo-descripcion"><b>Resultado:</b> @ViewBag.resultadoMensaje</p>
+
+				@if(Chequeo.pagina == "LM")
+				{
+					<p class="parrafo-descripcion">@Html.ActionLink("Volver", "ListaMensaje", "Mensaje")</p>
+					Chequeo.pagina = "";
+        }
+				else if(Chequeo.pagina == "LYDM")
+				{
+					<p class="parrafo-descripcion">@Html.ActionLink("Volver", "ListaYDetalleMensaje", "Mensaje")</p>
+					Chequeo.pagina = "";
+				}
+				else
+				{
+					<p class="parrafo-descripcion">@Html.ActionLink("Volver", "Index", "Home")</p>
+				}
+			</div>
+		</div>
+	</div>
+</section>

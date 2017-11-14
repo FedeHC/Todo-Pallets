@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C490F74-DCEF-4F94-84F4-B0F88E76853B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Todo_Pallets</RootNamespace>
+    <AssemblyName>Todo-Pallets</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\EspController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MensajeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Mensajes.cs" />
+    <Compile Include="Models\Proyectos.cs" />
+    <Compile Include="Models\Productos.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\reset.css" />
+    <Content Include="Content\css\site.css" />
+    <Content Include="Content\imagenes\favicon.png" />
+    <Content Include="Content\imagenes\fotos-muebles\miniaturas\pallets01.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\miniaturas\pallets02.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\miniaturas\pallets03.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\miniaturas\pallets04.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\miniaturas\pallets05.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\miniaturas\pallets06.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\miniaturas\pallets07.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\miniaturas\pallets08.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\miniaturas\pallets09.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\miniaturas\pallets10.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\pallets01.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\pallets01.png" />
+    <Content Include="Content\imagenes\fotos-muebles\pallets02.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\pallets03.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\pallets04.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\pallets05.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\pallets06.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\pallets07.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\pallets08.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\pallets09.jpg" />
+    <Content Include="Content\imagenes\fotos-muebles\pallets10.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\miniaturas\pallets01.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\miniaturas\pallets02.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\miniaturas\pallets03.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\miniaturas\pallets04.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\miniaturas\pallets05.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\miniaturas\pallets06.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\miniaturas\pallets07.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\miniaturas\pallets08.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\miniaturas\pallets09.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\miniaturas\pallets10.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\pallets01.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\pallets02.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\pallets03.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\pallets04.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\pallets05.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\pallets06.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\pallets07.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\pallets08.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\pallets09.jpg" />
+    <Content Include="Content\imagenes\fotos-proyectos\pallets10.jpg" />
+    <Content Include="Content\imagenes\iconos-estrellas-puntaje\Estrella-1-4.png" />
+    <Content Include="Content\imagenes\iconos-estrellas-puntaje\Estrella-3-4.png" />
+    <Content Include="Content\imagenes\iconos-estrellas-puntaje\Estrella-Entera.png" />
+    <Content Include="Content\imagenes\iconos-estrellas-puntaje\Estrella-Mitad.png" />
+    <Content Include="Content\imagenes\iconos-redes-sociales\Facebook.png" />
+    <Content Include="Content\imagenes\iconos-redes-sociales\GooglePlus.png" />
+    <Content Include="Content\imagenes\iconos-redes-sociales\Pinterest.png" />
+    <Content Include="Content\imagenes\iconos-redes-sociales\Reddit.png" />
+    <Content Include="Content\imagenes\iconos-redes-sociales\Tumblr.png" />
+    <Content Include="Content\imagenes\iconos-redes-sociales\Twitter.png" />
+    <Content Include="Content\imagenes\Imagen-Principal.jpg" />
+    <Content Include="Content\imagenes\logos-productos-proyectos\Top10-Productos-Derecha.png" />
+    <Content Include="Content\imagenes\logos-productos-proyectos\Top10-Productos-Izquierda.png" />
+    <Content Include="Content\imagenes\logos-productos-proyectos\Top10-Proyectos-Derecha.png" />
+    <Content Include="Content\imagenes\logos-productos-proyectos\Top10-Proyectos-Izquierda.png" />
+    <Content Include="Content\imagenes\Textura-Fondo.jpg" />
+    <Content Include="Content\imagenes\Titulo-Empresa.png" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\fonts\White wood.otf" />
+    <Content Include="Content\bootstrap\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap\bootstrap.css.map" />
+    <Content Include="Content\bootstrap\glyphicons\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap\glyphicons\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\bootstrap\glyphicons\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\bootstrap\glyphicons\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\bootstrap\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap\bootstrap.css" />
+    <Content Include="Content\bootstrap\bootstrap.min.css" />
+    <Content Include="Content\bootstrap\glyphicons\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\bootstrap\bootstrap.js" />
+    <Content Include="Scripts\bootstrap\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap\npm.js" />
+    <Content Include="Scripts\jquery\jquery-1.11.3.min.js" />
+    <Content Include="Content\jssor\img\a01.png" />
+    <Content Include="Content\jssor\img\a02.png" />
+    <Content Include="Content\jssor\img\a03.png" />
+    <Content Include="Content\jssor\img\a04.png" />
+    <Content Include="Content\jssor\img\a06.png" />
+    <Content Include="Content\jssor\img\a07.png" />
+    <Content Include="Content\jssor\img\a08.png" />
+    <Content Include="Content\jssor\img\a09.png" />
+    <Content Include="Content\jssor\img\a10.png" />
+    <Content Include="Content\jssor\img\a11.png" />
+    <Content Include="Content\jssor\img\a12.png" />
+    <Content Include="Content\jssor\img\a13.png" />
+    <Content Include="Content\jssor\img\a14.png" />
+    <Content Include="Content\jssor\img\a15.png" />
+    <Content Include="Content\jssor\img\a16.png" />
+    <Content Include="Content\jssor\img\a17.png" />
+    <Content Include="Content\jssor\img\a18.png" />
+    <Content Include="Content\jssor\img\a19.png" />
+    <Content Include="Content\jssor\img\a20.png" />
+    <Content Include="Content\jssor\img\a21.png" />
+    <Content Include="Content\jssor\img\a22.png" />
+    <Content Include="Content\jssor\img\b02.png" />
+    <Content Include="Content\jssor\img\b03.png" />
+    <Content Include="Content\jssor\img\b05.png" />
+    <Content Include="Content\jssor\img\b06.png" />
+    <Content Include="Content\jssor\img\b07.png" />
+    <Content Include="Content\jssor\img\b10.png" />
+    <Content Include="Content\jssor\img\b11.png" />
+    <Content Include="Content\jssor\img\b12.png" />
+    <Content Include="Content\jssor\img\b13.png" />
+    <Content Include="Content\jssor\img\b14.png" />
+    <Content Include="Content\jssor\img\b16.png" />
+    <Content Include="Content\jssor\img\b17.png" />
+    <Content Include="Content\jssor\img\b18.png" />
+    <Content Include="Content\jssor\img\b20.png" />
+    <Content Include="Content\jssor\img\b21.png" />
+    <Content Include="Content\jssor\img\back.jpg" />
+    <Content Include="Content\jssor\img\browser-icons.png" />
+    <Content Include="Content\jssor\img\close.png" />
+    <Content Include="Content\jssor\img\Icon-Slider-12-jQuery.png" />
+    <Content Include="Content\jssor\img\Icon-Slider-12-No-jQuery.png" />
+    <Content Include="Content\jssor\img\loading.gif" />
+    <Content Include="Content\jssor\img\loading2.gif" />
+    <Content Include="Content\jssor\img\play.png" />
+    <Content Include="Content\jssor\img\t01.png" />
+    <Content Include="Scripts\jssor\jssor.js" />
+    <Content Include="Scripts\jssor\jssor.player.ytiframe.js" />
+    <Content Include="Scripts\jssor\jssor.player.ytiframe.min.js" />
+    <Content Include="Scripts\jssor\jssor.slider.js" />
+    <Content Include="Scripts\jssor\jssor.slider.min.js" />
+    <Content Include="Scripts\jssor\jssor.slider.mini.js" />
+    <Content Include="Content\jssor\skin\arrow-01.source.html" />
+    <Content Include="Content\jssor\skin\arrow-02.source.html" />
+    <Content Include="Content\jssor\skin\arrow-03.source.html" />
+    <Content Include="Content\jssor\skin\arrow-04.source.html" />
+    <Content Include="Content\jssor\skin\arrow-05.source.html" />
+    <Content Include="Content\jssor\skin\arrow-06.source.html" />
+    <Content Include="Content\jssor\skin\arrow-07.source.html" />
+    <Content Include="Content\jssor\skin\arrow-08.source.html" />
+    <Content Include="Content\jssor\skin\arrow-09.source.html" />
+    <Content Include="Content\jssor\skin\arrow-10.source.html" />
+    <Content Include="Content\jssor\skin\arrow-11.source.html" />
+    <Content Include="Content\jssor\skin\arrow-12.source.html" />
+    <Content Include="Content\jssor\skin\arrow-13.source.html" />
+    <Content Include="Content\jssor\skin\arrow-14.source.html" />
+    <Content Include="Content\jssor\skin\arrow-15.source.html" />
+    <Content Include="Content\jssor\skin\arrow-16.source.html" />
+    <Content Include="Content\jssor\skin\arrow-18.source.html" />
+    <Content Include="Content\jssor\skin\arrow-19.source.html" />
+    <Content Include="Content\jssor\skin\arrow-20.source.html" />
+    <Content Include="Content\jssor\skin\arrow-21.source.html" />
+    <Content Include="Content\jssor\skin\arrow-22.source.html" />
+    <Content Include="Content\jssor\skin\bullet-01.source.html" />
+    <Content Include="Content\jssor\skin\bullet-02.source.html" />
+    <Content Include="Content\jssor\skin\bullet-03.source.html" />
+    <Content Include="Content\jssor\skin\bullet-05.source.html" />
+    <Content Include="Content\jssor\skin\bullet-06.source.html" />
+    <Content Include="Content\jssor\skin\bullet-07.source.html" />
+    <Content Include="Content\jssor\skin\bullet-09.source.html" />
+    <Content Include="Content\jssor\skin\bullet-10.source.html" />
+    <Content Include="Content\jssor\skin\bullet-11.source.html" />
+    <Content Include="Content\jssor\skin\bullet-12.source.html" />
+    <Content Include="Content\jssor\skin\bullet-13.source.html" />
+    <Content Include="Content\jssor\skin\bullet-14.source.html" />
+    <Content Include="Content\jssor\skin\bullet-16.source.html" />
+    <Content Include="Content\jssor\skin\bullet-17.source.html" />
+    <Content Include="Content\jssor\skin\bullet-18.source.html" />
+    <Content Include="Content\jssor\skin\bullet-20.source.html" />
+    <Content Include="Content\jssor\skin\bullet-21.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-01.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-02.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-03.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-04.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-05.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-06.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-07.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-08.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-09.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-10.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-15.source.html" />
+    <Content Include="Content\jssor\skin\thumbnail-16.source.html" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Content\jssor\skin\_references.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Acerca.cshtml" />
+    <Content Include="Views\Home\Contacto.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\jssor\jssor.player.ytiframe.compress.bat" />
+    <Content Include="Scripts\jssor\jssor.slider.debug.min.compress.bat" />
+    <Content Include="Scripts\jssor\jssor.slider.min.compress.bat" />
+    <Content Include="Scripts\jssor\jssor.slider.mini.compress.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Mensaje\MandarMensaje.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="Views\Home\Proyectos.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Mensaje\ListaMensaje.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Mensaje\DetalleMensaje.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Mensaje\BorrarMensaje.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Mensaje\ListaYDetalleMensaje.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\personalizado.pubxml" />
+    <Content Include="Views\Esp\Comprar.cshtml" />
+    <Content Include="Views\Esp\SubirProyecto.cshtml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52777</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52777/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

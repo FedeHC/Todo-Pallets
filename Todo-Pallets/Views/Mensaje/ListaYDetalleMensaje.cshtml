@@ -1,0 +1,82 @@
+﻿@using Todo_Pallets.Models;
+
+@{
+		ViewBag.Titulo = "Lista y detalles de los Mensajes";
+}
+
+
+<section>
+	<div class="row">
+		<div id="columna-descripcion-acerca">
+			<div class="col-sm-6 columna">
+				<h1 id="descripcion">Lista de mensajes de contacto:</h1>
+
+				<table class="table table-hover tabla-mensajes">
+					<thead>
+						<tr class="fila-principal-tabla">
+							<th>Nombre</th>
+							<th>Apellido</th="filas">
+							<th>Email</th>
+							<th>Operaciones</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (Mensajes msj in ViewBag.lstMensajes)
+						{
+						<tr>
+							<td class="ancho-max"> @msj.getNombre() </td>
+							<td class="ancho-max"> @msj.getApellido() </td>
+							<td class="ancho-max"> @msj.getEmail() </td>
+							<td class="ancho-max">
+								@Html.ActionLink("Detalles", "ListaYDetalleMensaje", new { id = msj.getID() })
+								@Html.ActionLink("Borrar", "BorrarMensaje", new { id = msj.getID() })
+							</td>
+						</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="col-sm-6 columna">
+
+				@if (ViewBag.mensaje2 != null)
+				{
+					<h1 id="descripcion">Detalles del mensaje:</h1>
+					<table class="table table-hover tabla-mensajes">
+						<tbody>
+							<tr class="fila-principal-tabla">
+								<td class="ancho-fijo"><b>ID:</b></td>
+								<td> @ViewBag.mensaje2.getID() </td>
+							</tr>
+							<tr>
+								<td class="ancho-fijo"><b>Nombre:</b></td>
+								<td> @ViewBag.mensaje2.getNombre() </td>
+							</tr>
+							<tr>
+								<td class="ancho-fijo"><b>Apellido:</b></td>
+								<td> @ViewBag.mensaje2.getApellido() </td>
+							</tr>
+							<tr>
+								<td class="ancho-fijo"><b>Email:</b></td>
+								<td> @ViewBag.mensaje2.getEmail() </td>
+							</tr>
+							<tr>
+								<td class="ancho-fijo"><b>Consulta:</b></td>
+								<td> @ViewBag.mensaje2.getConsulta() </td>
+							</tr>
+						</tbody>
+					</table>
+				}
+				else
+				{
+					if (@ViewBag.mensajeID == null)
+					{
+						<h1 id="descripcion">Error:</h1>
+						<p class="parrafo-descripcion">No se pudo obtener los detalles de este mensaje.</p>
+					}
+				}
+
+			</div>
+		</div>
+	</div>
+</section>

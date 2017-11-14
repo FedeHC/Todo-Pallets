@@ -1,0 +1,195 @@
+﻿@using Todo_Pallets.Models;
+
+@{
+	ViewBag.Titulo = "Subir Proyecto";
+	ViewBag.activoComprar = "actual";
+}
+
+
+<section>
+	<div class="row">
+		<div id="columna-descripcion-subir-proyecto">
+
+			<form id="formulario-subir-proyecto" action="/Esp/MandarProyecto" method="get">
+				<fieldset id="formulario">
+
+					<div class="col-sm-6 columna">
+						<h1 id="descripcion">¡Subi tu proyecto ahora!</h1>
+
+						<p class="parrafo-descripcion">A continuación te brindamos un formulario a completar con tus datos para que puedas subir tu proyecto a nuestro sitio.</p>
+
+						<p class="parrafo-descripcion">Recordá que al subir tu proyecto, Todo-Pallets! se reserva el derecho de aceptar y/o remover el contenido del mismo de su propia base de datos según disponga. Tampoco se hace responsable legalmente por ningún problema eventual que pudiera llegar a ocasionar su publicación.</p>
+
+						<p class="parrafo-descripcion"></p>
+
+							<div class="form-group has-feedback">
+
+								<div class="inner-addon left-addon input-group">
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-user"></span>
+									</span>
+									<input type="text"
+												 name="nombre"
+												 class="form-control"
+												 placeholder="Tu nombre"
+												 maxlength="25"
+												 pattern="^[A-Za-zñÑ_]{3,25}$"
+												 oninvalid="setCustomValidity('Por favor, complete este campo solo con su nombre de pila (de 3 a 25 letras, sin espacios, números o caracteres especiales).')"
+												 onchange="try{setCustomValidity('')}catch(e){}"
+												 autofocus
+												 required />
+								</div>
+							</div>
+
+							<div class="form-group has-feedback">
+
+								<div class="inner-addon left-addon input-group">
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-user"></span>
+									</span>
+									<input type="text"
+												 name="apellido"
+												 class="form-control"
+												 placeholder="Tu Apellido"
+												 maxlength="25"
+												 pattern="^[A-Za-zñÑ_]{3,25}$"
+												 oninvalid="setCustomValidity('Por favor, complete este campo con su verdadero apellido (de 3 a 25 letras, sin espacios, números o caracteres especiales).')"
+												 onchange="try{setCustomValidity('')}catch(e){}"
+												 required />
+								</div>
+							</div>
+
+							<div class="form-group has-feedback">
+
+								<div class="inner-addon left-addon input-group">
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-user"></span>
+									</span>
+									<input id="edad-usuario"
+												 type="text"
+												 name="edad"
+												 class="form-control"
+												 placeholder="Tu edad"
+												 maxlength="3"
+												 pattern="([6-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|6[0-9]|7[0-9]|8[0-9]|9[0-9]|10[0-9]|11[0-9]|12[0])"
+												 oninvalid="setCustomValidity('Por favor, complete este campo solo con su edad actual. Solo se admite de 6 años en adelante (número de 1 a 3 cifras, sin espacios, letras o caracteres especiales).')"
+												 onchange="try{setCustomValidity('')}catch(e){}"
+												 required />
+								</div>
+							</div>
+
+							<div class="form-group has-feedback">
+
+								<div class="inner-addon left-addon input-group">
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-envelope"></span>
+									</span>
+									<input type="email"
+												 name="email"
+												 class="form-control"
+												 placeholder="Tu email"
+												 maxlength="40"
+												 required />
+								</div>
+							</div>
+
+							<div id="email-padres" class="form-group has-feedback ">
+
+								<div class="inner-addon left-addon input-group">
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-envelope"></span>
+									</span>
+									<input type="email"
+												 name="emailPadres"
+												 class="form-control"
+												 placeholder="El email de cualquiera de tus padres o tutores"
+												 maxlength="40" />
+								</div>
+							</div>
+
+							<div class="form-group has-feedback">
+
+								<div class="inner-addon left-addon input-group">
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-pencil"></span>
+									</span>
+									<input type="text"
+												 name="tituloProyecto"
+												 class="form-control"
+												 placeholder="El título de tu proyecto"
+												 maxlength="40"
+												 oninvalid="setCustomValidity('Por favor, complete este campo solo con un título descriptivo de su proyecto (de 5 a 40 letras y números, sin caracteres especiales).')"
+												 onchange="try{setCustomValidity('')}catch(e){}"
+												 autofocus
+												 required />
+								</div>
+							</div>
+
+							<div class="form-group has-feedback">
+
+								<div class="inner-addon left-addon input-group">
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-pencil"></span>
+									</span>
+									<textarea class="form-control"
+														rows="10"
+														maxlength="500"
+														type="text"
+														name="descripciónProyecto"
+														placeholder="Tu descripción del proyecto que deseas subir a Todo-Pallets! (500 caracteres max.)"
+														required></textarea>
+								</div>
+							</div>
+
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"
+												 name="publicarNombre"
+												 value="SI"
+												 checked="checked" />
+									<p id="checkbox-descripcion">No quiero que publiquen mi apellido completo en la web.</p>
+							</label>
+						</div>
+
+					</div>
+					
+					<div class="col-sm-6 columna">
+
+						<div class="form-group" id="campo-subir-foto-1">
+							<label for="subir-foto-1">Subir la 1° imagen:*</label>
+							<input type="file" id="subir-foto-1" required>
+							<p class="parrafo-descripcion">Esta foto será justamente la que se mostrará primero en nuestra sección de proyectos. ¡No dudes en elegir la más bonita!</p>
+						</div>
+
+						<div class="form-group" id="campo-subir-foto-2">
+							<label for="subir-foto-2">Subir la 2° imagen:*</label>
+							<input type="file" id="subir-foto-2" required>
+						</div>
+
+						<div class="form-group" id="campo-subir-foto-3">
+							<label for="subir-foto-3">Subir la 3° imagen:*</label>
+							<input type="file" id="subir-foto-3" required>
+						</div>
+
+						<div class="form-group" id="campo-subir-foto-4">
+							<label for="subir-foto-4">Subir la 4° imagen:</label>
+							<input type="file" id="subir-foto-4">
+						</div>
+
+						<div class="form-group" id="campo-subir-foto-5">
+							<label for="subir-foto-5">Subir la 5° imagen:</label>
+							<input type="file" id="subir-foto-5">
+						</div>
+
+						<p id="checkbox-descripcion"><b>*</b> Obligatorio</p>
+
+						<button id="boton-enviar-proyecto" type="submit" class="btn btn-default">Enviar proyecto!</button>
+
+					</div>
+
+				</fieldset>
+			</form>
+
+		</div>
+	</div>
+</section>

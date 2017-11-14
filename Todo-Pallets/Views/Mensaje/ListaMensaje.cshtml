@@ -1,0 +1,42 @@
+﻿@using Todo_Pallets.Models;
+
+@{
+    ViewBag.Titulo = "Lista de Mensajes";
+}
+
+
+<section>
+	<div class="row">
+		<div id="columna-descripcion-acerca">
+			<div class="col-sm-6 columna">
+				<h1 id="descripcion">Lista de mensajes de contacto:</h1>
+
+				<table id="tabla-mensajes" class="table table-hover">
+					<thead>
+						<tr class="fila-principal-tabla">
+							<th>Nombre</th>
+							<th>Apellido</th>
+							<th>Email</th>
+							<th>Operaciones</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (Mensajes msj in ViewBag.lstMensajes)
+						{
+							<tr>
+								<td class="ancho-max">@msj.getNombre()</td>
+								<td class="ancho-max">@msj.getApellido()</td>
+								<td class="ancho-max">@msj.getEmail()</td>
+								<td class="ancho-max">
+									@Html.ActionLink("Detalles", "DetalleMensaje", new { id = msj.getID() })
+									@Html.ActionLink("Borrar", "BorrarMensaje", new { id = msj.getID() })
+								</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+	</div>
+</section>
