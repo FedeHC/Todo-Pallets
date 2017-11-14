@@ -2,7 +2,9 @@
 
 Mi trabajo final en [ComunidadIT](http://www.comunidadit.org/).
 
-Fue un redondeo de todo lo que habíamos visto durante los 3 meses de cursada: HTML, CSS, Bootstrap, C#, ASP.NET MVC, SQL Server. Mi idea fue crear un sitio para una supuesta PYME, en donde se exhibe sus productos y cuenta con formularios de contacto y de compra.
+Fue un redondeo de todo lo que habíamos visto durante los 3 meses de cursada.
+
+Mi idea fue crear un sitio para una supuesta PYME, el cual exhibe sus productos con puntaje, y cuenta con formularios de contacto y de compra.
 
 ![Imagen](https://raw.githubusercontent.com/FedeHC/fedehc.github.io/master/images/web6.jpg)
 
