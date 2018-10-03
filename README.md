@@ -6,7 +6,7 @@ Fue un redondeo de todo lo que habíamos visto durante los 3 meses de cursada.
 
 Mi idea fue crear un sitio para una supuesta PYME, el cual exhibe sus productos con puntaje, y cuenta con formularios de contacto y de compra.
 
-![Imagen](https://raw.githubusercontent.com/FedeHC/fedehc.github.io/master/images/web6.jpg)
+![Imagen](https://gitlab.com/FedeHC/Todo-Pallets/blob/master/Todo-Pallets/Content/imagenes/Imagen-Principal.jpg)
 
 ## Requisitos:
 
