@@ -1,159 +1,186 @@
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\Todo-Pallets.dll.config
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\Todo-Pallets.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\Todo-Pallets.pdb
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\Antlr3.Runtime.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\Newtonsoft.Json.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.Helpers.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.Mvc.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.Optimization.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.Razor.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.WebPages.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.WebPages.Razor.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\WebGrease.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.Helpers.xml
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.Mvc.xml
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.Optimization.xml
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.Razor.xml
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.WebPages.xml
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\System.Web.WebPages.Razor.xml
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\Newtonsoft.Json.xml
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\bin\Antlr3.Runtime.pdb
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\obj\Debug\Todo-Pallets.csprojResolveAssemblyReference.cache
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\obj\Debug\Todo-Pallets.dll
-C:\Users\Comunidad-IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\Todo-Pallets\obj\Debug\Todo-Pallets.pdb
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Todo-Pallets.dll.config
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Todo-Pallets.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Todo-Pallets.pdb
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Antlr3.Runtime.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Microsoft.Web.Infrastructure.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Newtonsoft.Json.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Helpers.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Mvc.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Optimization.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Razor.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.Deployment.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.Razor.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\WebGrease.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Helpers.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Mvc.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Optimization.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Razor.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.Deployment.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.Razor.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Newtonsoft.Json.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Antlr3.Runtime.pdb
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\obj\Debug\Todo-Pallets.csprojResolveAssemblyReference.cache
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\obj\Debug\Todo-Pallets.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\Visual Studio\Todo-Pallets\obj\Debug\Todo-Pallets.pdb
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Todo-Pallets.dll.config
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Todo-Pallets.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Todo-Pallets.pdb
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Antlr3.Runtime.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Newtonsoft.Json.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Helpers.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Mvc.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Optimization.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Razor.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.Razor.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\WebGrease.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Helpers.xml
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Mvc.xml
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Optimization.xml
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.Razor.xml
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.xml
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\System.Web.WebPages.Razor.xml
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Newtonsoft.Json.xml
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\bin\Antlr3.Runtime.pdb
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\obj\Debug\Todo-Pallets.csprojResolveAssemblyReference.cache
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\obj\Debug\Todo-Pallets.dll
-C:\Users\Comunidad IT\Desktop\[Proyecto Final]\Visual Studio\Todo-Pallets\obj\Debug\Todo-Pallets.pdb
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Todo-Pallets.dll.config
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Todo-Pallets.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Todo-Pallets.pdb
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Antlr3.Runtime.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Newtonsoft.Json.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Helpers.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Mvc.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Optimization.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Razor.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Deployment.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Razor.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\WebGrease.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Helpers.xml
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Mvc.xml
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Optimization.xml
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Razor.xml
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.xml
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Deployment.xml
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Razor.xml
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Newtonsoft.Json.xml
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Antlr3.Runtime.pdb
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\obj\Debug\Todo-Pallets.csprojResolveAssemblyReference.cache
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\obj\Debug\Todo-Pallets.dll
-C:\Users\CIT\Desktop\[Proyecto Final]\[Visual Studio]\Todo-Pallets\obj\Debug\Todo-Pallets.pdb
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Todo-Pallets.dll.config
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Todo-Pallets.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Todo-Pallets.pdb
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Antlr3.Runtime.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Microsoft.Web.Infrastructure.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Newtonsoft.Json.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Abstractions.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Helpers.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Mvc.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Optimization.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Razor.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Routing.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Deployment.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Razor.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\WebGrease.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Helpers.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Mvc.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Optimization.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Razor.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Deployment.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Razor.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Newtonsoft.Json.xml
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Antlr3.Runtime.pdb
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\obj\Debug\Todo-Pallets.csprojResolveAssemblyReference.cache
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\obj\Debug\Todo-Pallets.dll
-G:\Mis Archivos\[Estudio]\ComunidadIT\[Proyecto Final]\[Visual Studio]\Todo-Pallets\obj\Debug\Todo-Pallets.pdb
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Todo-Pallets.dll.config
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Todo-Pallets.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Todo-Pallets.pdb
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Antlr3.Runtime.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Microsoft.Web.Infrastructure.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Newtonsoft.Json.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Abstractions.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Helpers.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Mvc.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Optimization.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Razor.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Routing.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Deployment.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Razor.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\WebGrease.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Helpers.xml
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Mvc.xml
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Optimization.xml
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.Razor.xml
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.xml
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Deployment.xml
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\System.Web.WebPages.Razor.xml
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Newtonsoft.Json.xml
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\bin\Antlr3.Runtime.pdb
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\obj\Debug\Todo-Pallets.dll
-G:\Mis Archivos\[Estudio]\[Old]\[ComunidadIT]\[Proyecto Final]\[Visual Studio]\Todo-Pallets\obj\Debug\Todo-Pallets.pdb
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/Todo-Pallets.dll.config
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/Todo-Pallets.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/Todo-Pallets.pdb
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/Antlr3.Runtime.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/Newtonsoft.Json.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.Helpers.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.Mvc.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.Optimization.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.Razor.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.WebPages.Deployment.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.WebPages.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.WebPages.Razor.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/WebGrease.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.Helpers.xml
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.Mvc.xml
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.Optimization.xml
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.Razor.xml
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.WebPages.xml
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.WebPages.Deployment.xml
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/System.Web.WebPages.Razor.xml
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/Newtonsoft.Json.xml
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/bin/Antlr3.Runtime.pdb
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/obj/Debug/Todo-Pallets.csprojResolveAssemblyReference.cache
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/obj/Debug/Todo-Pallets.dll
+C:/Users/Comunidad-IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/Todo-Pallets/obj/Debug/Todo-Pallets.pdb
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Todo-Pallets.dll.config
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Todo-Pallets.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Todo-Pallets.pdb
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Antlr3.Runtime.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Microsoft.Web.Infrastructure.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Newtonsoft.Json.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Helpers.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Mvc.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Optimization.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Razor.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.Deployment.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.Razor.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/WebGrease.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Helpers.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Mvc.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Optimization.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Razor.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.Deployment.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.Razor.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Newtonsoft.Json.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Antlr3.Runtime.pdb
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/obj/Debug/Todo-Pallets.csprojResolveAssemblyReference.cache
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/obj/Debug/Todo-Pallets.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/Visual Studio/Todo-Pallets/obj/Debug/Todo-Pallets.pdb
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Todo-Pallets.dll.config
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Todo-Pallets.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Todo-Pallets.pdb
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Antlr3.Runtime.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Newtonsoft.Json.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Helpers.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Mvc.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Optimization.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Razor.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.Deployment.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.Razor.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/WebGrease.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Helpers.xml
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Mvc.xml
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Optimization.xml
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.Razor.xml
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.xml
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.Deployment.xml
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/System.Web.WebPages.Razor.xml
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Newtonsoft.Json.xml
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/bin/Antlr3.Runtime.pdb
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/obj/Debug/Todo-Pallets.csprojResolveAssemblyReference.cache
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/obj/Debug/Todo-Pallets.dll
+C:/Users/Comunidad IT/Desktop/[Proyecto Final]/Visual Studio/Todo-Pallets/obj/Debug/Todo-Pallets.pdb
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Todo-Pallets.dll.config
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Todo-Pallets.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Todo-Pallets.pdb
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Antlr3.Runtime.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Newtonsoft.Json.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Helpers.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Mvc.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Optimization.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Razor.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Deployment.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Razor.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/WebGrease.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Helpers.xml
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Mvc.xml
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Optimization.xml
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Razor.xml
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.xml
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Deployment.xml
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Razor.xml
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Newtonsoft.Json.xml
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Antlr3.Runtime.pdb
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/obj/Debug/Todo-Pallets.csprojResolveAssemblyReference.cache
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/obj/Debug/Todo-Pallets.dll
+C:/Users/CIT/Desktop/[Proyecto Final]/[Visual Studio]/Todo-Pallets/obj/Debug/Todo-Pallets.pdb
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Todo-Pallets.dll.config
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Todo-Pallets.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Todo-Pallets.pdb
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Antlr3.Runtime.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Microsoft.Web.Infrastructure.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Newtonsoft.Json.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Abstractions.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Helpers.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Mvc.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Optimization.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Razor.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Routing.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Deployment.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Razor.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/WebGrease.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Helpers.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Mvc.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Optimization.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Razor.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Deployment.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Razor.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Newtonsoft.Json.xml
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Antlr3.Runtime.pdb
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/obj/Debug/Todo-Pallets.csprojResolveAssemblyReference.cache
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/obj/Debug/Todo-Pallets.dll
+G:/Mis Archivos/[Estudio]/ComunidadIT/[Proyecto Final]/[Visual Studio]/Todo-Pallets/obj/Debug/Todo-Pallets.pdb
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Todo-Pallets.dll.config
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Todo-Pallets.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Todo-Pallets.pdb
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Antlr3.Runtime.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Microsoft.Web.Infrastructure.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Newtonsoft.Json.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Abstractions.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Helpers.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Mvc.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Optimization.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Razor.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Routing.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Deployment.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Razor.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/WebGrease.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Helpers.xml
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Mvc.xml
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Optimization.xml
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.Razor.xml
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.xml
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Deployment.xml
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/System.Web.WebPages.Razor.xml
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Newtonsoft.Json.xml
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/bin/Antlr3.Runtime.pdb
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/obj/Debug/Todo-Pallets.dll
+G:/Mis Archivos/[Estudio]/[Old]/[ComunidadIT]/[Proyecto Final]/[Visual Studio]/Todo-Pallets/obj/Debug/Todo-Pallets.pdb
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/Todo-Pallets.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/Todo-Pallets.pdb
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/Antlr3.Runtime.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/Microsoft.Web.Infrastructure.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/Newtonsoft.Json.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.Abstractions.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.Helpers.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.Mvc.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.Optimization.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.Razor.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.Routing.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.WebPages.Deployment.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.WebPages.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.WebPages.Razor.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/WebGrease.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.Helpers.xml
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.Mvc.xml
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.Razor.xml
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.WebPages.xml
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.WebPages.Deployment.xml
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/System.Web.WebPages.Razor.xml
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/Newtonsoft.Json.xml
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/bin/Antlr3.Runtime.pdb
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/obj/Debug/Todo-Pallets.csprojResolveAssemblyReference.cache
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/obj/Debug/Todo-Pallets.csproj.CoreCompileInputs.cache
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/obj/Debug/Todo-Pallets.dll
+/media/Archivos/Trabajos/NET/Todo Pallets/Todo-Pallets/obj/Debug/Todo-Pallets.pdb

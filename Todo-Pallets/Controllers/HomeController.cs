@@ -102,7 +102,7 @@ namespace Todo_Pallets.Controllers
 					int visitas = (int)dataReader["visitas"];
 					float puntaje = (float)(double)dataReader["puntaje"];
 
-					// Sacando acentos y diéresis en 'descripcionProyecto' para evitar el problema del cambio involuntario de tipografía en la títulos:
+					// Sacando acentos y diéresis en 'descripcionProyecto' para evitar el problema del cambio involuntario de tipografía en los títulos:
 					nombreProyecto = nombreProyecto.Replace("á", "a").Replace("é", "e").Replace("í", "i").Replace("ó", "o").Replace("ú", "u").Replace("ü", "u");
 
 					// Creando objeto 'proyectos' con los datos de la BD consultada:
